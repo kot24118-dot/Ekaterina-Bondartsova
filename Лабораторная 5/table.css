@@ -1,0 +1,50 @@
+table,
+th,
+td {
+    border: 1px dotted black;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    background: rgb(75, 134, 114);
+    color: white;
+}
+
+td {
+    text-align: center;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+tr:nth-child(3n) {
+    background: rgb(229, 248, 242);
+}
+tr:nth-child(3n+1) {
+    background: rgb(198, 247, 212);
+}
+tr:nth-child(3n-1) {
+    background: rgb(229, 215, 244);
+}
+
+tr:hover {
+    background: rgb(239, 171, 218);
+}
+
+caption {
+    font-size: x-large;
+    text-align: left;
+}
+
+.header {
+    text-align: right;
+}
+
+form {
+    display:inline-block;
+
+
+}
